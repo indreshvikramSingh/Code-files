@@ -1,0 +1,58 @@
+.info-container {
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px;
+    border: 1px solid #000;
+}
+.column {
+    width: 32%;  
+    padding: 5px;
+}
+
+.title {
+    text-align: left ;  
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 10px; 
+
+}
+
+.corporate-office {
+    display: block;
+    text-align: center ;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: right;
+    padding: 10px 20px;
+}
+
+.company-logo {
+    height: 50px; 
+    width: auto;
+    text-align: right;
+}
+
+
+
+.graph-container img {
+    max-width: none; 
+    width: 150%; 
+    display: inline-block; 
+}
+
+.graph-container {
+    width: 100%;
+    height: 300px;
+    overflow: auto; 
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+
